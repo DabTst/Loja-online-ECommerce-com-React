@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #50093e;
+  padding: 1rem;
+  color: white;
+  box-shadow: 2px 3px 4px black;
+}
+
+.navbar-logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-search input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.navbar-search button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.navbar-profile,
+.navbar-cart {
+  font-size: 1.5rem;
+  color: white;
+}
