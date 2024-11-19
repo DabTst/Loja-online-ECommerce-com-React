@@ -1,23 +1,27 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./components/Home";
-import Navbar from "./components/Navbar";
-import Eletroo from "./pages/Eletroo";
-import Calçadoss from "./pages/Calçadoss";
-import Roupass from "./pages/Roupass";
-import Acessórioss from "./pages/Acessórioss";
-import Tecnologiass from "./pages/Tecnologiass";
+import Nav from "./component/Nav";
+import Homee from "./component/Homee";
+import Eletrodo from "./page/Eletrodo";
+import Shoes from "./page/Shoes";
+import Dress from "./page/Dress";
+import Acessories from "./page/Acessories";
+import Tech from "./page/Tech";
+import Perfil from "./page/Perfil";
+import Carts from "./page/Carts";
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+      <Nav />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Eletroo" element={<Eletroo />} />
-        <Route path="/Calçadoss" element={<Calçadoss />} />
-        <Route path="/Roupass" element={<Roupass />} />
-        <Route path="/Acessórioss" element={<Acessórioss />} />
-        <Route path="/Tecnologiass" element={<Tecnologiass />} />
+        {<Route path="/" element={<Homee />} />}
+        <Route path="/Eletrodo" element={<Eletrodo />} />
+        <Route path="/Shoes" element={<Shoes />} />
+        <Route path="/Dress" element={<Dress />} />
+        <Route path="/Acessories" element={<Acessories />} />
+        <Route path="/Tech" element={<Tech />} />
+        <Route path="/Perfil" element={<Perfil />} />
+        <Route path="/Carts" element={<Carts />} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaUser, FaShoppingCart, FaSearch } from "react-icons/fa"; // Ícones de Font Awesome
-import "./Navbar.css";
+import "./Nav.css";
 
-function Navbar() {
+function Nav() {
   return (
     <nav className="navbar">
       {/* Logo */}
@@ -14,19 +14,19 @@ function Navbar() {
       {/* Lista de páginas */}
       <ul className="navbar-links">
         <li>
-          <Link to="/Eletroo">Eletrodomesticos</Link>
+          <Link to="/Eletrodo">Eletrodomesticos</Link>
         </li>
         <li>
-          <Link to="/Roupass">Roupas</Link>
+          <Link to="/Dress">Roupas</Link>
         </li>
         <li>
-          <Link to="/Calçadoss">Calçados</Link>
+          <Link to="/Shoes">Calçados</Link>
         </li>
         <li>
-          <Link to="/Acessórioss">Acessórios </Link>
+          <Link to="/Acessories">Acessórios </Link>
         </li>
         <li>
-          <Link to="/Tecnologiass">Tecnologias </Link>
+          <Link to="/Tech">Tecnologias </Link>
         </li>
       </ul>
 
@@ -40,19 +40,19 @@ function Navbar() {
 
       {/* Ícone de perfil */}
       <div className="navbar-profile">
-        <Link to="/profile">
-          <FaUser />
+        <Link to="/Perfil">
+          <FaUser color="#fff" />
         </Link>
       </div>
 
       {/* Ícone de carrinho de compras */}
       <div className="navbar-cart">
         <Link to="/cart">
-          <FaShoppingCart />
+          <FaShoppingCart color="#fff" />
         </Link>
       </div>
     </nav>
   );
 }
 
-export default Navbar;
+export default Nav;

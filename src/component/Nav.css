@@ -4,8 +4,11 @@
   justify-content: space-between;
   background-color: #50093e;
   padding: 1rem;
+  width: 98%;
+  margin-bottom: 3rem;
   color: white;
   box-shadow: 2px 3px 4px black;
+  position: fixed;
 }
 
 .navbar-logo a {
@@ -25,11 +28,17 @@
   color: white;
   text-decoration: none;
   font-weight: bold;
+  transition: 0.4 ease-in;
+}
+
+.navbar-links a:hover {
+  color: #dda60f;
 }
 
 .navbar-search input {
-  padding: 0.5rem;
+  padding: 0.3rem;
   border: none;
+  width: 130px;
   border-radius: 5px;
 }
 

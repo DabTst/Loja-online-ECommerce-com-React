@@ -1,0 +1,105 @@
+.P1 h1 {
+  text-align: center;
+}
+.Login {
+  width: 100%;
+}
+.Login h2 {
+  text-align: center;
+}
+
+.LoginForm {
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  border: 1px solid #fff;
+  width: 350px;
+  height: 355px;
+  top: 26%;
+  left: 35%;
+  position: absolute;
+  text-align: left;
+  background-color: #e7dce2;
+  align-items: flex-start;
+  border-radius: 5%;
+  box-shadow: 2px 2px 4px #000;
+}
+
+h5 {
+  color: #000;
+  margin-left: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.email,
+.pswd {
+  display: flex;
+  flex-direction: column;
+  margin: 2.2%;
+}
+.email label {
+  color: #000;
+  padding-bottom: 5px;
+}
+.pswd label {
+  color: #000;
+  padding-bottom: 5px;
+}
+
+.email,
+input {
+  width: 95%;
+  padding: 1%;
+}
+.pswd,
+input {
+  width: 95%;
+  padding: 1%;
+  border: none;
+  color: #000;
+}
+
+input {
+  border-bottom: 2px solid #000;
+  background-color: #e7dce2;
+}
+
+.LoginForm button {
+  color: #ffffff;
+  width: 90%;
+  margin-top: 3%;
+  padding: 5px;
+  margin-left: 10px;
+  background-color: #63122f;
+  font-size: 17px;
+  font-weight: 800;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px #e52e71;
+  transition: all ease-in 0.4s;
+}
+.LoginForm button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #63122f;
+}
+
+.NewForgot {
+  padding: 0;
+}
+
+.NewForgot p {
+  font-size: 14px;
+  color: #000;
+}
+
+.NewForgot p a {
+  color: #63122f;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.NewForgot p a:hover {
+  color: #000;
+}
